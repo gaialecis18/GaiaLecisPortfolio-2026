@@ -109,7 +109,7 @@ export const projects = [
     focus: 'Human Computer Interaction',
     summary:
       'EntertainMe is a **mobile app** designed to simplify content selection across multiple streaming platforms by using **AI-driven, personalized recommendations** and offering additional “extras” content to enrich the viewing experience.',
-    hero: '/assets/projects/entertainme/cover.jpg',
+    hero: '/assets/projects/entertainme/thumbnail.jpg',
     showHeroVisual: false,
     coverImage: '/assets/projects/entertainme/cover.jpg',
     cardTags: ['AI Recommendations', 'HCI', 'Streaming UX'],
@@ -167,7 +167,7 @@ export const projects = [
     focus: 'Embedded System & Android App',
     summary:
       'Lock’n Roll is a **smart locker system** for food delivery in university environments, allowing users to order meals via an app and pick them up from **heated lockers** at flexible times, eliminating delivery delays and coordination issues.',
-    hero: '/assets/projects/locknroll/cover.jpg',
+    hero: '/assets/projects/locknroll/thumbnail.jpg',
     showHeroVisual: false,
     coverImage: '/assets/projects/locknroll/cover.jpg',
     cardTags: ['IoT System', 'Android App', 'Firebase'],
