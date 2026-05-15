@@ -1,12 +1,20 @@
 import { NavLink, Link } from 'react-router-dom';
 import { navLinks } from '../../data';
 
+const baseUrl = (process.env.PUBLIC_URL || '').trimEnd('/');
+
 function Header() {
   return (
     <header className="site-header">
       <div className="site-brand">
         <Link to="/" className="brand-link">
-          Gaia Lecis Portfolio
+          <img
+            className="brand-logo"
+            src={`${baseUrl}/favicon.png`}
+            alt=""
+            aria-hidden="true"
+          />
+          <span>Gaia Lecis</span>
         </Link>
       </div>
       <nav className="site-nav">

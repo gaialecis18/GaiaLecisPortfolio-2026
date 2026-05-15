@@ -80,7 +80,23 @@ textarea {
   font-family: 'Manrope', sans-serif;
   font-size: 1.05rem;
   font-weight: 800;
-  letter-spacing: -0.04em;
+  letter-spacing: 0;
+}
+
+.brand-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  color: #ffffff;
+}
+
+.brand-logo {
+  width: 2.25rem;
+  height: 2.25rem;
+  flex: 0 0 auto;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 18px rgba(178, 143, 255, 0.28);
 }
 
 @keyframes fadeInUp {
